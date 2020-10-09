@@ -1,0 +1,17 @@
+{
+  "size": {
+    "x-small": { "value": "1.25" },
+    "small": { "value": "1.875" },
+    "medium": { "value": "3.75" },
+    "large": { "value": "6.25" },
+    "height": {
+      "container": { "value": "28.125" }
+    },
+    "width": {
+      "container": {
+        "small": { "value": "25" },
+        "medium": { "value": "37.5" }
+      }
+    }
+  }
+}

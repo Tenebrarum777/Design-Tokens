@@ -1,0 +1,13 @@
+{
+  "size": {
+    "space": {
+      "tiny": { "value": "0.625" },
+      "x-small": { "value": "0.9375" },
+      "small": { "value": "1.125" },
+      "medium": { "value": "1.25" },
+      "large": { "value": "2.50" },
+      "x-large": { "value": "3.75" },
+      "xx-large": { "value": "5" }
+    }
+  }
+}

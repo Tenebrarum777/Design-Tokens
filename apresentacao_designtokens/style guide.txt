@@ -1,0 +1,12 @@
+Problema a ser resolvido
+Quem é o usuario
+Identidade pessoal do produto
+Consistência
+
+O que é: Documento visual que dita regras e padrões a serem seguidos num projeto
+Cores, fontes, paleta, espaçamento, hierarquia de cores, tamnhs de fonte, pesos
+Tipos de botões, hierarquia, formulários, componentes
+
+Evitar repetição e retrabalho, desenvolvedores e designers
+
+

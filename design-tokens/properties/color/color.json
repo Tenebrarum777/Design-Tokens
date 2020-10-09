@@ -14,7 +14,7 @@
       "light": { "value": "#d64d55" },
       "dark": {
         "primary": { "value": "#970e16" },
-         "secondary": { "value": "#972d34" }
+        "secondary": { "value": "#972d34" }
         }
     },
     "blue": {
@@ -26,10 +26,6 @@
     },
     "yellow": {
       "value": "#eab244"
-    },
-    "text": {
-      "primary": {"value": "#f1faee"},
-      "secondary": {"value": "#222222"}
     }
   }
 }

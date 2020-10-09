@@ -1,0 +1,47 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 09 Oct 2020 01:21:27 GMT
+ */
+
+ :root {
+  --color-background-light-primary: #e2e1df;
+  --color-background-light-secondary: #cdd7ca;
+  --color-background-dark-primary: #24292c;
+  --color-background-dark-secondary: #3c3a48;
+  --color-red-light: #d64d55;
+  --color-red-dark-primary: #970e16;
+  --color-red-dark-secondary: #972d34;
+  --color-blue-dark: #0b2b4b;
+  --color-blue-light-primary: #0b4374;
+  --color-blue-light-secondary: #87aeb5;
+  --color-yellow: #eab244;
+  --color-text-primary: #f1faee;
+  --color-text-secondary: #222222;
+  --font-family-base: Miso Bold;
+  --size-font-1: 0.625rem; /* 10px */
+  --size-font-2: 0.75rem; /* 12px */
+  --size-font-3: 0.8125rem; /* 13px */
+  --size-font-4: 0.875rem; /* 14px */
+  --size-font-5: 1rem; /* 16px */
+  --size-font-6: 1.125rem; /* 18px */
+  --size-font-7: 1.25rem; /* 20px */
+  --size-font-8: 1.5rem; /* 24px */
+  --size-font-9: 1.75rem; /* 28px */
+  --size-font-10: 2rem; /* 32px */
+  --size-font-base: 1.25rem; /* Valor base da fonte */
+  --size-radius-medium: 0.3125rem;
+  --size-x-small: 1.25rem;
+  --size-small: 1.875rem;
+  --size-medium: 3.75rem;
+  --size-large: 6.25rem;
+  --size-height-container: 28.125rem;
+  --size-width-container-small: 25rem;
+  --size-width-container-medium: 37.5rem;
+  --size-space-tiny: 0.625rem;
+  --size-space-x-small: 0.9375rem;
+  --size-space-small: 1.125rem;
+  --size-space-medium: 1.25rem;
+  --size-space-large: 2.5rem;
+  --size-space-x-large: 3.75rem;
+  --size-space-xx-large: 5rem;
+}

@@ -1,10 +1,5 @@
-@import url(http://localhost:5500/build/css/variables.css);
-/* @import './colors.css'; */
-
-/* :root{
-    --text-white: #f1faee;
-    --font-main: "Miso Bold"
-} */
+/* @import url(http://localhost:5500/build/css/variables.css); */
+@import './variables.css';
 
 @font-face {
     font-family: "Miso Bold";
@@ -12,7 +7,7 @@
 }
 
 *{
-    font-family: var(--font-main);
+    font-family: var(--font-family-base);
 }
 
 .no-space{
@@ -21,7 +16,7 @@
 }
 
 body{
-    background-color: var(--color-blue);
+    background-color: var(--color-blue-dark);
 }
 
 /* MENU HEADER */
@@ -29,32 +24,32 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: var(--color-red);
+    background-color: var(--color-red-light);
     display: flex;
     align-items: center;
-    height: 60px;
-    font-size: 20px;
+    height: var(--size-medium);
+    font-size: var(--size-font-base);
 }
 
 .menu__item{
     padding: 0;
-    margin-right: 20px;
-    height: 60px;
+    margin-right: var(--size-space-medium);
+    height: var(--size-medium);
 }
 
 .menu__item:hover {
-    background-color: var(--color-red-dark);
-    border-bottom: var(--text-white) solid 2px;
+    background-color: var(--color-red-dark-primary);
+    border-bottom: var(--color-text-primary) solid 2px;
 }
 
 .menu__item:active{
-    background-color: var(--color-red-dark-alt);
+    background-color: var(--color-red-dark-secondary);
 }
 
 .menu__link{
     display: block;
-    color: var(--text-white);
-    padding: 20px 15px;
+    color: var(--color-text-primary);
+    padding: var(--size-space-medium) var(--size-space-x-small);
 
     text-decoration: none;
     font-size: var(--size-font-medium);
@@ -62,66 +57,65 @@ body{
 
 /* CONTEÚDO */
 .container{
-    margin-top: 60px;
+    margin-top: var(--size-space-x-large);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - var(--size-space-x-larg));
 }
 
 .container__infobox{
-    outline: 20px solid var(--color-background-light-alt);
-    background-color: var(--color-background-light);
-    width: 600px;
-    height: 450px;
-    padding: 20px;
-    color: #222;
-    margin: 80px 0;
-    font-size: 1.25rem;
+    outline: var(--size-space-medium) solid var(--color-background-light-secondary);
+    background-color: var(--color-background-light-primary);
+    width: var(--size-width-container-medium);
+    height: var(--size-height-container);
+    padding: var(--size-space-medium);
+    color: var(--color-text-secondary);
+    margin: var(--size-space-xx-large) 0;
+    font-size: var(--size-font-base);
 }
 
 .container__loginbox{
     display: flex;
     flex-direction: column;
 
-    color: var(--text-white);
-    outline: 20px solid var(--color-background-light-alt);
-    background-color: var(--color-blue-light-alt);
-    width: 400px;
-    height: 450px;
-    padding: 20px;
-    color: var(--text-white);
-    margin: 80px 0;
-    font-size: 1.25rem;
+    color: var(--color-text-primary);
+    outline: var(--size-space-medium) solid var(--color-background-light-secondary);
+    background-color: var(--color-blue-light-secondary);
+    width: var(--size-width-container-small);
+    height: var(--size-height-container);
+    padding: var(--size-space-medium);
+    margin: var(--size-space-xx-large) 0;
+    font-size: var(--size-space-medium);
 }
 
 .container__input{
     width: 100%;
-    height: 24pt;
-    font-size: 18pt;
-    border-radius: 5px;
+    height: var(--size-small);
+    font-size: var(--size-font-9);
+    border-radius: var(--size-radius-medium);
 }
 
 .container__formfield{
-    margin-top: 20px;
+    margin-top: var(--size-space-medium);
 }
 
 .container__button{
     font-size: inherit;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: var(--size-space-tiny) var(--size-space-medium);
+    border-radius: var(--size-radius-medium);
     border: 0;
-	background-color: var(--color-background-dark-alt);
-	cursor:pointer;
+	background-color: var(--color-background-dark-secondary);
+	cursor: pointer;
 	color: inherit;
-	text-shadow:0px -1px 0px var(--color-background-dark);
+	text-shadow:0px -1px 0px var(--color-background-dark-primary);
 }
 
 .container__button:hover{
-    background-color: var(--color-background-dark);
-    box-shadow: inset 0px 0px 1px 1px var(--color-blue-light-alt);
+    background-color: var(--color-background-dark-primary);
+    box-shadow: inset 0px 0px 1px 1px var(--color-blue-light-secondary);
 }
 
 .container__button:active{
@@ -132,11 +126,11 @@ body{
 /* FOOTER */
 footer{
     width: 100%;
-    height: 60px;
-    background-color: var(--color-red);
-    font-size: 20px;
+    height: var(--size-space-x-large);
+    background-color: var(--color-red-light);
+    font-size: var(--size-font-base);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--color-text-primary);
 }
