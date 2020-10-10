@@ -1,5 +1,5 @@
-/* @import url(http://localhost:5500/build/css/variables.css); */
-@import './variables.css';
+@import url(http://localhost:5500/build/css/variables.css);
+/* @import './variables.css'; */
 
 @font-face {
     font-family: "Miso Bold";
@@ -63,7 +63,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    min-height: calc(100vh - var(--size-space-x-larg));
+    min-height: calc(100vh - var(--size-space-x-large));
 }
 
 .container__infobox{
