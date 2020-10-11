@@ -2,7 +2,7 @@
   "color": {
     "background": {
       "light":{ 
-        "primary":    { "value": "#e2e1df"},
+        "primary":    { "value": "#e2e1df" },
         "secondary":  { "value": "#cdd7ca" }
        },
        "dark":{ 
